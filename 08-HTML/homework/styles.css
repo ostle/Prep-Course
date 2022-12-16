@@ -1,0 +1,32 @@
+h1 {
+  color: rgb(38, 0, 87);
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: rgb(132, 130, 133);
+  padding: 50px;
+  border-width: 50px;
+  border-color: rgb(81, 80, 82);
+  border-style: double;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/427/066/original/gray-and-white-marble-texture-free-vector.jpg);
+}
