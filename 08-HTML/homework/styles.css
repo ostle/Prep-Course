@@ -1,3 +1,9 @@
+html {
+  
+  font-family: 'Roboto', sans-serif;
+
+}
+
 h1 {
   color: rgb(38, 0, 87);
 }
@@ -16,7 +22,7 @@ img {
   border-style: double;
 }
 
-#container {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,4 +35,48 @@ img {
 
 body {
   background-image: url(https://static.vecteezy.com/system/resources/previews/001/427/066/original/gray-and-white-marble-texture-free-vector.jpg);
+  max-width: 1366px;
+  margin: 0 auto;
 }
+
+.box {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border-width: 10px;
+  border-color: rgb(81, 80, 82);
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#foto {
+  width: 150px;
+  margin: 16px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  flex-wrap: wrap;
+  padding: 8px 32px;
+  border-radius: 8px;
+  background-color: #eeeeee88;
+}
+
+.container2 div {
+  flex: 1 1 0.28;
+  flex-basis: 28%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.seccion {
+  margin-right: 20px;
+}
+
+html
