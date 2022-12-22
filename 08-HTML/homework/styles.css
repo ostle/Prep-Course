@@ -1,11 +1,9 @@
 html {
-  
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  color: rgb(38, 0, 87);
+  color: #333;
 }
 
 img {
@@ -79,4 +77,6 @@ body {
   margin-right: 20px;
 }
 
-html
+li {
+  list-style: none;
+}
